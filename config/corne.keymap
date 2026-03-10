@@ -7,13 +7,6 @@
 // Urob's helpers. Needed for ZMK_LAYER(), ZMK_HOLD_TAP(), ZMK_TAP_DANCE().
 #include "zmk-helpers/helper.h"
 
-/ {
-    chosen {
-        zmk,matrix-transform = &default_transform;
-        // zmk,matrix-transform = &five_column_transform;
-    };
-};
-
 // User-friendly definitions for key positions
 #include "zmk-helpers/key-labels/42.h"
 #define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5 // left-hand keys
