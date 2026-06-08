@@ -35,7 +35,7 @@
 #define NEW_TERM  LC(LS(GRAVE))
 #define PRV_TERM  LC(PG_UP)
 #define NXT_TERM  LC(PG_DN)
-#define OPSWD_BRW LC(LS(X))
+#define OPSWD_BRW LA(LS(X))
 #define OPSWD_WIN LC(LS(SPACE))
 #define PTOYS_RUN LG(LC(SPACE))
 
