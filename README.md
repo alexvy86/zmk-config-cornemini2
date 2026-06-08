@@ -1,3 +1,9 @@
+# This repo is archived
+
+I [merged my config for the corne mini 2](https://github.com/alexvy86/zmk-config/pull/1) into my main repo for ZMK configs. 
+
+---
+
 ## I added the mouse layer but you will need to add a layer change in zmk studio or edit directly to get there.
 
 
