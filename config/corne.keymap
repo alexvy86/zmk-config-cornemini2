@@ -120,8 +120,9 @@ ZMK_TAP_DANCE(td_layers,
 #define THUMB5 &lt LY_MIS2 BSPC
 #define THUMB6 &kp ENTER
 
-/* Combos */
-ZMK_COMBO(caps_word, &caps_word, LH0 RH0, ALL, 50) // Caps word on main thumb keys
+/* COMBO_TERM is internally used by ZMK_COMBO and defaults to 30 if not defined */
+#define COMBO_TERM 50
+ZMK_COMBO(caps_word, &caps_word, LH0 RH0) // Caps word on main thumb keys
 
 /* Keymap */
 
